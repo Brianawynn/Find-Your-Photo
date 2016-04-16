@@ -21,12 +21,12 @@
 }
 
 #slide1:{
-  background: ur('http://placehold.it/350x150') top center no-repeat;
+  background: ur('../Images/carousel/car1.jpeg') top center no-repeat;
 }
 
 
 #slide2:{
-  background: ur('') top center no-repeat;
+  background: ur('../Images/carousel/car2.jpeg') top center no-repeat;
 }
 
 #slide3:{
