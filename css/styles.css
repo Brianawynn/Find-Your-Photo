@@ -2,6 +2,14 @@
 
 
 <!--navbar-->
+nav{
+  height: 80px;
+}
+nav .img{
+  padding-top:5px;
+  padding-bottom:5px;
+  
+}
 #searchInput{
   width: 150px;
 }
@@ -13,6 +21,6 @@
   margin-top: 10px;
 }
 
-#mc img{
+#mc .img{
   position: relative center;
 }
