@@ -20,13 +20,11 @@ nav>img{
   margin-top:60px;
 }
 
-#slide1>img {
+#slide1>img, #slide2>img, #slide3>img, #slide4>img,#slide5>img,#slide6>img,#slide7>img {
   margin:auto;
 }
 
-#slide2>img{
-  margin: auto;
-}
+
 
 #intro{
   margin:auto;
