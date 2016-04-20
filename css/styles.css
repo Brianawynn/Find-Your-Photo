@@ -14,6 +14,7 @@ nav{
   width: 150px;
 }
 
+
 /*<!--carousel-->*/
 #mc {
   background: url("../Images/carousel/carb.png") no-repeat;
@@ -24,7 +25,12 @@ nav{
   margin:auto;
 }
 
+/*<!--quotes-->*/
 
+#quote{
+  
+  font-style:oblique;
+}
 
 #intro{
   margin:auto;
