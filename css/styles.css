@@ -32,6 +32,9 @@ nav{
   font-style:oblique;
 }
 
+.thumbnail>img{
+  padding: 5px;
+}
 #intro{
   margin:auto;
   margin-top: 60px;
