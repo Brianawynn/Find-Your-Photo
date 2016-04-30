@@ -21,6 +21,13 @@
  </head>
 
 <body>
+ <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
   <div class="container" id ="main">
   <nav class="navbar navbar-default  navbar-static-top">
         <div class="container">
@@ -71,26 +78,28 @@
      
         <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-        <img src="Images/Favorites/thumbnails/f1.jpg" alt="A Frog On Rocks">
-        <p><a href="#" class="btn btn-danger" role="button">DOWNLOAD</a> <a href="#" class="btn btn-default" role="button">VIEW</a>
-        <a href="#" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
+        <img src="Images/Favorites/thumbnails/f1.jpg" alt="One Bright Spot">
+        <p><a href="Images/Favorites/thumbnails/f1.jpg" download = "One Bright Spot" class="btn btn-danger" role="button">DOWNLOAD</a> <a href="#" class="btn btn-default" role="button">VIEW</a>
+        <a href="gift.html" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
         </p>
         </div>
        </div> <!--end of col-->
       
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-        <img src="Images/Favorites/thumbnails/f2.jpg" alt="An Orange Cat">
-        <p><a href="#" class="btn btn-danger" role="button">DOWNLOAD</a> <a href="#" class="btn btn-default" role="button">VIEW</a>
-        <a href="#" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
+        <img src="Images/Favorites/thumbnails/f2.jpg" alt="Pages">
+        <p><a href="Images/Favorites/thumbnails/f2.jpg" download="Pages" class="btn btn-danger" role="button">DOWNLOAD</a> <a href="#" class="btn btn-default" role="button">VIEW</a>
+        <a href="gift.html" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
         </p>
         </div>
       </div> <!--end of col-->
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-        <img src="Images/Favorites/thumbnails/f3.jpg" alt="Dolphins Jumping Over a Wave">
-        <p><a href="#" class="btn btn-danger" role="button">DOWNLOAD</a> <a href="#" class="btn btn-default" role="button">VIEW</a>
-        <a href="#" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
+        <img src="Images/Favorites/thumbnails/f3.jpg" alt="A Desk On The LightBulb">
+        <p><a href="Images/Favorites/thumbnails/f3.jpg" download ="A Desk On The LightBulb" class="btn btn-danger" role="button">
+         DOWNLOAD</a> <a href="#" class="btn btn-default" 
+         data-toggle="modal" data-target= ".bs-example-modal-sm" role="button">VIEW</a>
+        <a href="gift.html" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
         </p>
         </div>
       </div> <!--end of col-->
