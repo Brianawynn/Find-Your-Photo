@@ -21,13 +21,27 @@
  </head>
 
 <body>
- <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+ <!--modal-->
+ <div class="modal fade modal3-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
-      ...
-    </div>
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">A Desk on the LightBulb</h4>
+      </div>
+      <div class ="modal-body">
+       <img src="Images/Favorites/thumbnails/f3.jpg">
+           ...
+      </div>
+  
+      <div class="modal-footer">
+       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> <!--end footer-->
+    </div> <!--end of mondal content-->
   </div>
-</div>
+</div><!-- end modal-->
+
+<!--main content--> 
   <div class="container" id ="main">
   <nav class="navbar navbar-default  navbar-static-top">
         <div class="container">
@@ -98,7 +112,7 @@
         <img src="Images/Favorites/thumbnails/f3.jpg" alt="A Desk On The LightBulb">
         <p><a href="Images/Favorites/thumbnails/f3.jpg" download ="A Desk On The LightBulb" class="btn btn-danger" role="button">
          DOWNLOAD</a> <a href="#" class="btn btn-default" 
-         data-toggle="modal" data-target= ".bs-example-modal-sm" role="button">VIEW</a>
+         data-toggle="modal" data-target= "modal3-sm" role="button">VIEW</a>
         <a href="gift.html" class="btn btn-danger pull-right" role ="button"><span class ="glyphicon glyphicon-gift"></span></a>
         </p>
         </div>
